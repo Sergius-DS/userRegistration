@@ -30,7 +30,7 @@ class Calculator:
     Button(width=11, height=4, text='/', relief='flat', bg='white', command=lambda: self.show('/')).place(x=270,y=50)
     Button(width=11, height=4, text='x', relief='flat', bg='white', command=lambda: self.show('*')).place(x=270,y=125)
     Button(width=11, height=4, text='=', relief='flat', bg='white', command=self.solve).place(x=270,y=350)
-    Button(width=11, height=4, text='C', relief='flat', command=self.clear).place(x=0,y=350))
+    Button(width=11, height=4, text='C', relief='flat', command=self.clear).place(x=0,y=350)
 
   def show(self, value):
     self.entry_value+=str(value)
