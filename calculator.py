@@ -1,4 +1,5 @@
 from tkinter import Tk, Entry, Button, StringVar
+from pyvirtualdisplay import Display
 
 class Calculator:
   def __init__(self, master):
