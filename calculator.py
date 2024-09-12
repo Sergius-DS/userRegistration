@@ -46,7 +46,8 @@ class Calculator:
     self.equation.set(result)
 
 
-
-root = Tk()
-calculator = Calculator(root)
-root.mainloop()
+with Display(visible=0, size=(800, 600)):
+    root = Tk()
+    # Rest of your calculator.py code goes here
+    calculator = Calculator(root)
+    root.mainloop()
